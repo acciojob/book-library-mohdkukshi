@@ -3,8 +3,11 @@ body {
     background-color: #f8f8f8;
 }
 
-.title-lib {
+main {
     background-color: #f1f1f1;
+}
+.book-library {
+    /* background-color: #f1f1f1; */
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -18,20 +21,20 @@ body {
     margin-left: 180px;
 }
 
-.book>.title {
+.title {
     text-align: left;
     font-weight: bold;
     margin-bottom: -20px;
 }
 
-.book>.author {
+.author {
     text-align: left;
     color: darkgray;
     font-weight: bold;
     margin-bottom: -17px;
 }
 
-.book>.price {
+.price {
     background-color: #3ecc77;
     height:26px ;
     text-align: center;
@@ -40,3 +43,4 @@ body {
     font-weight: bold;
     border-radius: 5px;
 }
+
